@@ -4,13 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Validator-Guided Hard Negative Mining — Paper</title>
-
-  <!-- STEP 2 (later): when the ACL Anthology page is live, paste the URL below
-       and remove the surrounding comment markers to auto-redirect visitors. -->
-  <!--
-  <meta http-equiv="refresh" content="0; url=https://aclanthology.org/REPLACE-ME/">
-  -->
-
   <style>
     :root { --navy: #0d2c54; --bg: #e6e9ef; }
     * { box-sizing: border-box; }
@@ -21,31 +14,58 @@
       color: var(--navy);
     }
     .card {
-      max-width: 640px; width: 100%; background: #fff; border-radius: 16px;
+      max-width: 660px; width: 100%; background: #fff; border-radius: 16px;
       padding: 40px 36px; box-shadow: 0 10px 40px rgba(13,44,84,.15); text-align: center;
     }
     h1 { font-size: 1.5rem; line-height: 1.3; margin: 0 0 8px; }
     .authors { font-weight: 600; margin: 0 0 4px; }
     .venue { color: #5a6b85; margin: 0 0 28px; font-size: .95rem; }
+    .btns { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
     a.btn {
       display: inline-block; background: var(--navy); color: #fff; text-decoration: none;
       padding: 14px 28px; border-radius: 999px; font-weight: 700; font-size: 1rem;
     }
+    a.btn.secondary { background: #fff; color: var(--navy); border: 2px solid var(--navy); }
     a.btn:hover { opacity: .9; }
-    .note { margin-top: 20px; color: #5a6b85; font-size: .85rem; }
+    details {
+      margin-top: 28px; text-align: left; background: #f4f6fa;
+      border-radius: 10px; padding: 14px 18px;
+    }
+    summary { cursor: pointer; font-weight: 600; }
+    pre {
+      white-space: pre-wrap; word-break: break-word; font-size: .8rem;
+      margin: 12px 0 0; color: #33415c;
+    }
   </style>
 </head>
 <body>
   <main class="card">
     <h1>Validator-Guided Hard Negative Mining for Masked Language Modeling in Low-Resource Ancient Languages</h1>
     <p class="authors">Andrei Voinea</p>
-    <p class="venue">Faculty of Mathematics and Computer Science, Babeș-Bolyai University</p>
+    <p class="venue">ACL 2026 · Student Research Workshop · Faculty of Mathematics and Computer Science, Babeș-Bolyai University</p>
 
-    <!-- STEP 2 (later): replace the href with the ACL Anthology URL,
-         and change the button text to "Read the paper". -->
-    <a class="btn" href="#">Paper coming soon</a>
+    <div class="btns">
+      <a class="btn" href="https://aclanthology.org/2026.acl-srw.69/">Read the paper</a>
+      <a class="btn secondary" href="https://aclanthology.org/2026.acl-srw.69.pdf">PDF</a>
+    </div>
 
-    <p class="note">The published paper link will appear here shortly.</p>
+    <details>
+      <summary>Cite (BibTeX)</summary>
+      <pre>@inproceedings{voinea-2026-validator,
+    title = "Validator-Guided Hard Negative Mining for Masked Language Modeling in Low-Resource Ancient Languages",
+    author = "Voinea, Andrei",
+    editor = "T.Y.S.S., Santosh and Rodriguez, Juan Diego and de Gibert, Ona",
+    booktitle = "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop)",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.acl-srw.69/",
+    doi = "10.18653/v1/2026.acl-srw.69",
+    pages = "779--790",
+    ISBN = "979-8-89176-393-7"
+}</pre>
+    </details>
   </main>
 </body>
 </html>
